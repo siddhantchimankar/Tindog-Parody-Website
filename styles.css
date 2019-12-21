@@ -1,0 +1,199 @@
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1{
+  font-size: 2.8rem;
+  line-height: 1.5;
+  font-weight: 900;
+  text-align: left;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 28px;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  font-weight: 500;
+  color: grey;
+  line-height: 1.5;
+}
+
+.navbar-brand-new {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.navbar-brand-new:hover{
+  color: #c72c41;
+  text-decoration: none;
+}
+
+.carousel-control-prev, .carousel-control-next{
+  padding-top: 240px;
+}
+
+#title img {
+  width: 60%;
+  transform: rotate(25deg);
+  position: relative;
+  left: 20%;
+}
+
+
+.fas {
+  font-size: 65px;
+  color: #ff8ba7;
+  margin-bottom: 5%;
+}
+
+.fas:hover {
+  color: #ff4c68;
+}
+
+.carousal-item {
+  padding: 7% 12%;
+}
+
+.carousel-item h2 {
+  padding: 5% 12% 1%;
+  margin-top: 10px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.carousel-item img {
+  width: 7%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.container-fluid .navbar-dark {
+  padding: 0 0 4.5rem;
+}
+
+.container-fluid .ml-auto {
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+#title .row{
+  text-align: left;
+}
+
+#title button {
+  margin: 5% 3% 5% 0;
+}
+
+#press img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+#footer {
+  padding: 120px 500px 100px 500px;
+  text-align: center;
+}
+
+#footer i {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#cta {
+  height: 420px;
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 75px 150px 60px 150px;
+}
+
+#cta h3 {
+  font-size: 2.8rem;
+  color: #fff;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+#cta button {
+  margin: 5px 10px 25px 10px;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#title .container-fluid {
+  padding: 3% 15%;
+}
+
+#features {
+  padding: 9% 12% 0%;
+  background-color: #fff;
+  position: relative;
+  margin-bottom: 0%;
+  bottom: 120px;
+}
+
+#testimonials {
+  text-align: center;
+  color: #fff;
+
+}
+
+#press {
+
+  margin-bottom: 50px;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+#testimonials, #press {
+  background-color: #ef8172;
+}
+
+#pricing {
+  padding: 10px 100px 40px 100px;
+  text-align: center;
+}
+
+#pricing .row{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  #title img {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+
+#footer {
+  font-weight: 500;
+  color: black;
+  margin: 20px;
+  height: 200px;
+  padding-top: 80px;
+}
