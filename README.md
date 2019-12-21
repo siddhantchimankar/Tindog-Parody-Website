@@ -1,5 +1,5 @@
 **Tindog**
 
-A parody website based on Tinder.
+A parody website(only frontend) based on Tinder.
 
 library - Bootstrap
